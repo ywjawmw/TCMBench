@@ -1,4 +1,4 @@
-![image](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/assets/38470046/09a00d8d-251d-441d-9332-673dc5fbc8b4)# ShenNong-TCM-Evaluation-BenchMark
+# ShenNong-TCM-Evaluation-BenchMark
 Repo for ShenNong-TCM-Evaluation (“神农”大模型系列，首个中医评测框架和中医评测数据集)
 
 [**中文**](./README.md) | [**English**](./README.md)
