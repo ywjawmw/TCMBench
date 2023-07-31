@@ -1,4 +1,4 @@
-# ShenNong-TCM-Evaluation-BenchMark
+![image](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/assets/38470046/09a00d8d-251d-441d-9332-673dc5fbc8b4)# ShenNong-TCM-Evaluation-BenchMark
 Repo for ShenNong-TCM-Evaluation (“神农”大模型系列，首个中医评测框架和中医评测数据集)
 
 [**中文**](./README.md) | [**English**](./README.md)
@@ -26,6 +26,7 @@ Repo for ShenNong-TCM-Evaluation (“神农”大模型系列，首个中医评�
 A1/A2: 每一道考题下面有A、B、C、D、E五个备选答案；
 A3/A4: 实际案例题； 每一道考题下提供一个案例，每个案例下设若干道试题，在每一道试题下面有A、B、C、D、E 五个备选答案；
 B1:  每一道考题下有若干组考题，每组考题共用在考题前列出的A、B、C、D、E五个备选答案。
+
 
 🚀 **数据处理** ：
 
@@ -101,9 +102,14 @@ B1类试题：
     }
 ```
 
-🚀 **ShenNong-TCM-Evaluation** ：
-- 
-- 我们为每个题型设计了不同的prompt，要求LLM回答题目，并给出答案和分析。
+🚀 **ShenNong-TCM-Evaluation** ：我们为每个题型设计了不同的prompt，要求LLM回答题目，并给出答案和分析。
+
+🚀 **测试结果** ：
+| 大模型           | A1/A2       | A3/A3       | B1       |
+| ------------------ | -------------- | -------------- |-------------- |
+| **ChatGLM**           | 0.3581          | 0.4611          |0.4513      |
+| **ChatGPT-3.5-turbo** | 0.4510          | 0.4689          | 0.4438     |
+| **ChatGPT-4**         | **0.5819**      | **0.6231**      | **0.6044** |
 
 
 同时，欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM**：
