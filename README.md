@@ -114,7 +114,18 @@ B1类试题：
 | **ChatGPT-4**         | **0.5819**      | **0.6231**      | **0.6044** |
 
 
-同时，欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM**：
+🚀 **结果分析** ：
+- LLM目前在中医领域存在常识性错误；
+  
+  ![image](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/assets/38470046/dcdc223f-5c47-4b6a-827f-34ef8c196958)
+
+    根据模型生成的分析结果与试题中的分析比较，得出大模型答错的核心原因在于其缺乏中医知识的学习。
+- LLM模型存在错误传递（叠加）的问题；
+  ![image](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/assets/38470046/78e56d29-f9a5-4732-90cd-95831612458e)
+
+    可以看到，当大模型在案例题下，若第一道题回答错误后，即使第二道题答对，但是根据其生成的分析理由发现其掌握的知识仍然是错误的，而其错误的原因是从第一道题中的错误分析中传递的。
+  
+🚀 因此，很有必要构建一个专属于中医药领域的大模型。欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM**：
 
 - 🚀 [ShenNong-TCM](https://github.com/michael-wzhu/ShenNong-TCM-LLM) : 为推动LLM在中医药领域的发展和落地，提升LLM的在中医药方面的知识与回答医学咨询的能力，我们推出了**ShenNong**中医药大规模语言模型。基于[中医药指令数据集ShenNong_TCM_Dataset](https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset)。
 
