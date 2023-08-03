@@ -132,7 +132,7 @@ Repo for ShenNong-TCM-Evaluation (“神农”大模型系列，首个中医评�
 | **keyword** |数据集检索关键词| 
 | **prefix_prompt**| 指令信息|
 
-你可以通过调用不同模型的API运行[A12_bench.py](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/evaluate/A12_bench.py/[A3-B1_bench.py](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/evaluate/A3-B1_bench.py) 来生成三类题型的答案。同时，我们在/models文件夹下提供了Openai的API。其他自定义的模型API可以放在此文件夹下进行调用。
+你可以通过调用不同模型的API运行[A12_bench.py](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/evaluate/A12_bench.py)/[A3-B1_bench.py](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/evaluate/A3-B1_bench.py) 来生成三类题型的答案。同时，我们在/models文件夹下提供了Openai的API。其他自定义的模型API可以放在此文件夹下进行调用。
 ```
 首先若有必要，请设置代理:
 os.environ['HTTPS_PROXY']="your proxy"
