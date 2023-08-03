@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     # Iterate through the examples in the data
     for i in range(len(data)):
-        directory = "XXX"
+        directory = "data"
         # get the api_key_list
         openai_api_key = "your key"
         # openai_api_key_list = get_api_key(, start_num=0, end_num=1)
