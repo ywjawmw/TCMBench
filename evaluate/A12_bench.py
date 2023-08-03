@@ -5,9 +5,9 @@ if parent_path not in sys.path:
     sys.path.append(parent_path)
 
 
-from Openai import OpenaiAPI
-from ChatGLM import ChatGLMAPI
-from Moss_Local import MossAPI
+from models.Openai import OpenaiAPI
+# from ChatGLM import ChatGLMAPI
+# from Moss_Local import MossAPI
 from bench_function import get_api_key, export_distribute_json, export_union_json
 import os
 import json
@@ -17,11 +17,11 @@ if __name__ == "__main__":
     # Load the MCQ_prompt.json file
     os.environ['HTTPS_PROXY'] = "your proxy"
     #MCQ_prompt.json
-    with open("A1-2_prompt.json.json", "r", encoding="utf-8") as f:
+    with open("prompt/A1-2_prompt.json.json", "r", encoding="utf-8") as f:
         data = json.load(f)['examples']
     f.close()
 
-    with open("题库-A3+A4_CQ-示例.json", "r", encoding="utf-8") as f:
+    with open("data/题库-A3+A4_CQ-示例.json", "r", encoding="utf-8") as f:
         examples = json.load(f)['examples']  # list
     f.close()
 
