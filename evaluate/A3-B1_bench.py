@@ -14,12 +14,8 @@ import time
 if __name__ == "__main__":
     # Load the FBQ_prompt.json file
     os.environ['HTTPS_PROXY'] = "your proxy"
-    with open("A3-4_prompt_k-shot.json", "r", encoding="utf-8") as f:
+    with open("prompt/A3-4_prompt.json", "r", encoding="utf-8") as f:
         data = json.load(f)['examples']
-    f.close()
-
-    with open("题库-A3+A4_CQ-示例.json", "r", encoding="utf-8") as f:
-        examples = json.load(f)['examples']   # list
     f.close()
 
 
@@ -56,7 +52,7 @@ if __name__ == "__main__":
             keyword,
             zero_shot_prompt_text,
             question_type,
-            examples,
+            [],
             parallel_num=50,
         )
 
