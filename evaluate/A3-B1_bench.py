@@ -4,8 +4,8 @@ parent_path = os.path.dirname(sys.path[0])
 if parent_path not in sys.path:
     sys.path.append(parent_path)
 
-from Openai import OpenaiAPI
-from ChatGLM import ChatGLMAPI
+from models.Openai import OpenaiAPI
+# from ChatGLM import ChatGLMAPI
 from bench_function import get_api_key, export_distribute_json, export_union_json
 import json
 from moss import MossAPI
