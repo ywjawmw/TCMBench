@@ -1,0 +1,27 @@
+{
+  "keywords": "B1类型的选择题",
+  "example": [
+     {
+      "share_content": "（共用备选答案）\nA.芡实\nB.赤石脂\nC.莲子\nD.浮小麦\nE.肉豆蔻\n",
+      "question": [
+        {
+          "sub_question": "1)．可以治疗自汗盗汗，骨蒸劳热的药物是（  ）。",
+          "answer": [
+            "D"
+          ],
+          "analysis": ""
+        },
+        {
+          "sub_question": "2)．可以治疗虚寒气滞，久泻不止的药物是（  ）。",
+          "answer": [
+            "E"
+          ],
+          "analysis": ""
+        }
+      ],
+      "knowledge_point": "中药学",
+      "index": 1398,
+      "score": 1
+    }
+  ]
+}
