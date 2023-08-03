@@ -115,13 +115,15 @@ Repo for ShenNong-TCM-Evaluation (“神农”大模型系列，首个中医评�
 
 | 文件名                     | 说明           |
 | -------------------------- | -------------- |
-| /prompt/A12_bench.py     | 生成单题干单项最佳选择题答案 |
-| /prompt/A3-B1_bench.py      | 生成病例组型最佳选择题和标准配伍题答案|
-| /prompt/bench_function.py   | 测试相关函数   |
+| /evaluate/A12_bench.py     | 生成单题干单项最佳选择题答案 |
+| /evaluate/A3-B1_bench.py      | 生成病例组型最佳选择题和标准配伍题答案|
+| /evaluate/bench_function.py   | 测试相关函数   |
+| /evaluate/correct_analyse.py  | 计算准确率   |
 | /prompt/A1-2_prompt.json| 单题干单项最佳选择题（A1/A2型题）的指令文件| 
 | /prompt/A3-4_prompt.json| 病例组型最佳选择题（A3型题）的指令文件| 
 | /prompt/B1_prompt.json| 标准配伍题（B1型题）的指令文件| 
 | /models/Openai.py| 调用Openai接口 |
+
 
 其中，指令文件的字段为：
 | 字段           | 说明| 
@@ -130,12 +132,22 @@ Repo for ShenNong-TCM-Evaluation (“神农”大模型系列，首个中医评�
 | **keyword** |数据集检索关键词| 
 | **prefix_prompt**| 指令信息|
 
-🚀 **测试结果** ：
-| 大模型           | 单题干单项最佳选择题（A1/A2型题）| 病例组型最佳选择题（A3型题）/few-shot instance|标准配伍题（B1型题） |
-| ------------------ | -------------- | -------------- |-------------- |
-| **ChatGLM**           | 0.3581          | 0.4611 / 0.6153  |0.4513      |
-| **ChatGPT-3.5-turbo** | 0.4510          | 0.4689  / 0.4751  | 0.4438     |
-| **ChatGPT-4**         | **0.5819**      | **0.5047** / **0.6199**      | **0.6044** |
+你可以通过调用不同模型的API运行A12_bench.py[https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/evaluate/A12_bench.py]/A3-B1_bench.py[https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/evaluate/A3-B1_bench.py] 来生成三类题型的答案。同时，我们在/models文件夹下提供了Openai的API。其他自定义的模型API可以放在此文件夹下进行调用。
+```
+首先若有必要，请设置代理:
+os.environ['HTTPS_PROXY']="your proxy"
+其次，将你的OpenAI Key填写到指定位置：
+openai_api_key = "your key"
+然后通过设置不同的model_type 和 model_name 来调用不同的模型
+使用以下命令已经运行：
+python A12_bench.py
+python A3-B1_bench.py
+```
+
+最后，你可以运行correct_analyse.py[https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/evaluate/correct_analyse.py]来得到模型的准确率得分。
+ ```
+python correct_analyse.py
+ ``` 
 
 
 
@@ -274,6 +286,13 @@ Repo for ShenNong-TCM-Evaluation (“神农”大模型系列，首个中医评�
  ``` 
 
 经过加入few-shot instance之后，各大模型在病例组型最佳选择题（A3型题）的测试准确度都有所上升
+
+| 大模型           | 单题干单项最佳选择题（A1/A2型题）| 病例组型最佳选择题（A3型题）/few-shot instance|标准配伍题（B1型题） |
+| ------------------ | -------------- | -------------- |-------------- |
+| **ChatGLM**           | 0.3581          | 0.4611 / 0.6153  |0.4513      |
+| **ChatGPT-3.5-turbo** | 0.4510          | 0.4689  / 0.4751  | 0.4438     |
+| **ChatGPT-4**         | **0.5819**      | **0.5047** / **0.6199**      | **0.6044** |
+
 
 
 🚀 因此，很有必要构建一个专属于中医药领域的大模型。欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM**：
