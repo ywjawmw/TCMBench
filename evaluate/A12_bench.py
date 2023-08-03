@@ -21,10 +21,6 @@ if __name__ == "__main__":
         data = json.load(f)['examples']
     f.close()
 
-    with open("data/题库-A3+A4_CQ-示例.json", "r", encoding="utf-8") as f:
-        examples = json.load(f)['examples']  # list
-    f.close()
-
 for i in range(len(data)):
     directory = "data"
     # get the api_key_list
@@ -60,7 +56,7 @@ for i in range(len(data)):
         keyword,
         zero_shot_prompt_text,
         question_type,
-        examples,
+        [""],
         parallel_num=1,
     )
 
