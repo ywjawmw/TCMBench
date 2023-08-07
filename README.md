@@ -315,3 +315,37 @@ python correct_analyse.py
 - 🚀 [ChatMed-MT](https://huggingface.co/michaelwzhu/ChatMed-MT) : ChatMed-Consult的多轮对话版本，对已有的开源中文问诊数据集进行LLM自动改造，使得医生回复文本更加具有共情性，也更贴心与详细，由此训练的LLM在患者/用户体验上会更好。
 - 🚀 [PromptCBLUE中文医疗大模型评测基准](https://github.com/michael-wzhu/PromptCBLUE): 将[CBLUE](https://tianchi.aliyun.com/dataset/95414)基准进行改造为提示学习模式，形成对大模型的中文医疗知识与医疗文本处理能力的评测基准。PromptCBLUE旨在采用一个生成式大模型即可完成医疗NLP相关的各种不同任务，如病历结构化，问诊，病例文书撰写等。
 
+## 致谢
+
+本项目基于大模型给出的API进行开发，同时参考了大语言模型在高考试题上的测评任务，在此对相关项目和研究开发人员表示感谢。
+
+- [ChatGPT](https://openai.com/blog/chatgpt)
+- [ChatGLM](https://github.com/THUDM/ChatGLM-6B)
+- [GaoKao-Bench](https://github.com/OpenLMLab/GAOKAO-Bench)
+
+Logo中的"神农"形象是由[midjourney](http://midjourney.com)自动生成。
+
+
+## Citation
+
+如果你使用了本项目的数据或者代码，请声明引用：
+
+```bash
+@misc{yue2023 TCMEB,
+      title={TCMEB: Performance Evaluation of Large Language Models Based on Traditional Chinese Medicine Benchmarks}, 
+      author={Wenjing Yue, Wei Zhu and Xiaoling Wang},
+      year={2023},
+      publisher = {GitHub},
+      journal = {GitHub repository},
+      howpublished = {\url{https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark}},
+}
+
+```
+
+## 团队介绍
+
+本项目由华东师范大学计算机科学与技术学院智能知识管理与服务团队完成，团队指导老师为王晓玲教授。
+
+团队成员：
+- [Wenjing Yue](https://github.com/ywjawmw)
+- [michael-wzhu](https://github.com/michael-wzhu)
