@@ -296,17 +296,15 @@ python correct_analyse.py
 最后，我们对于16个知识点分别进行测评，其中过对于病例组型最佳选择题（A3型题），我们分别使用了zero-shot和few-shot的指令方案，结果如下:
 <p align="center">
     <br>
-    <img src="" width="355"/>
+    <img src="https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/image/zero-shot.png" width="355"/>
     <br>
 </p>
 <p align="center">
     <br>
-    <img src="https://github.com/michael-wzhu/ShenNong-TCM-LLM/blob/main/pics/ShenNong-TCM_banner.png" width="355"/>
+    <img src="https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/blob/main/image/few-shot.png" width="355"/>
     <br>
 </p>
-![zero-shot](https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark/assets/38470046/2f9c3322-405c-4e2f-b355-e76d946c1f6c)
-
-
+可以看到，在加入few-shot后，大模型回答大部分知识点问题能力有所上升。涉及到西医的一些知识如“内科学”、“卫生法规”等知识点，大模型的能力是比较强的。而对于中医基础的一些知识，如“方剂学”、“中医经典”等，大模型的能力较弱。这也侧面反映出，目前市面上流行的大语言模型，对于中医相关的知识掌握程度并不理想。
 
 🚀 因此，很有必要构建一个专属于中医药领域的大模型。欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM**：
 
