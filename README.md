@@ -353,5 +353,5 @@ Logo中的"神农"形象是由[midjourney](http://midjourney.com)自动生成。
 本项目由华东师范大学计算机科学与技术学院智能知识管理与服务团队完成，团队指导老师为王晓玲教授。
 
 团队成员：
-- [Wenjing Yue](https://github.com/ywjawmw)
+- [ywjawmw](https://github.com/ywjawmw)
 - [michael-wzhu](https://github.com/michael-wzhu)
