@@ -310,6 +310,7 @@ python correct_analyse.py
 </p>
 可以看到，在加入few-shot后，大模型回答大部分知识点问题能力有所上升。涉及到西医的一些知识如“内科学”、“卫生法规”等知识点，大模型的能力是比较强的。而对于中医基础的一些知识，如“方剂学”、“中医经典”等，大模型的能力较弱。这也侧面反映出，目前市面上流行的大语言模型，对于中医相关的知识掌握程度并不理想。
 
+
 👨‍⚕️ 因此，很有必要构建一个专属于中医药领域的大模型。欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM**：
 
 - 🚀 [ShenNong-TCM](https://github.com/michael-wzhu/ShenNong-TCM-LLM) : 为推动LLM在中医药领域的发展和落地，提升LLM的在中医药方面的知识与回答医学咨询的能力，我们推出了**ShenNong**中医药大规模语言模型。基于[中医药指令数据集ShenNong_TCM_Dataset](https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset)。
