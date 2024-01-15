@@ -345,7 +345,7 @@ Logo中的"神农"形象是由[midjourney](http://midjourney.com)自动生成。
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
-      howpublished = {\url{https://github.com/ywjawmw/ShenNong-TCM-Evaluation-BenchMark}},
+      howpublished = {\url{https://github.com/ywjawmw/TCMEB}},
 }
 
 ```
