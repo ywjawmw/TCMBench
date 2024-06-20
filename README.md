@@ -1,7 +1,9 @@
 # TCMBench: A Comprehensive Benchmark for Evaluating Large Language Models in Traditional Chinese Medicine
-Repo for TCMBench (“数智岐黄”大模型系列，首个中医评测框架和中医评测数据集)
+Repo for TCMBench (“ShuzhiQihuang” LLMs series，The first comprehensive benchmark for evaluating LLMs in TCM)
 
-[**中文**](./README.md) | [**English**](./README.md)
+The paper has been submitted to BIBM-2024.
+
+[**English**](./README.md) | [**中文**](./README_Chinese.md)
 
 <p align="center">
     <img alt="GitHub" src="https://img.shields.io/github/license/ymcui/Chinese-LLaMA-Alpaca.svg?color=blue&style=flat-square">
