@@ -146,7 +146,6 @@ python correct_analyse.py
 And our other open source projects for medical LLMs：
 - 🚀 [Intelligent TCM Inheritance and Innovation Assistance Platform](https://github.com/ywjawmw/AI4TCM-Platform) ;
 - 🚀 [ChatMed-Consult](https://huggingface.co/michaelwzhu/ChatMed-Consult) ；
-- 🚀 [ChatMed-MT](https://huggingface.co/michaelwzhu/ChatMed-MT) 
 - 🚀 [PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE);
 
 ## Acknowledge
