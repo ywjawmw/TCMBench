@@ -1,7 +1,7 @@
 # TCMBench: A Comprehensive Benchmark for Evaluating Large Language Models in Traditional Chinese Medicine
 Repo for TCMBench (The first comprehensive benchmark for evaluating LLMs in TCM)
 
-The paper has been submitted to BIBM-2024.
+The [paper](https://arxiv.org/abs/2406.01126) has been submitted to BIBM-2024.
 
 [**English**](./README.md) | [**中文**](./README_Chinese.md)
 
