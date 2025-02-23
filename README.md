@@ -3,6 +3,8 @@ Repo for TCMBench (The first comprehensive benchmark for evaluating LLMs in TCM)
 
 The [paper](https://arxiv.org/abs/2406.01126) has been submitted to XXX.
 
+❗ Refuse all plagiarism (🙃 smile.jpg).
+
 [**English**](./README.md) | [**中文**](./README_Chinese.md)
 
 <p align="center">
