@@ -1,7 +1,7 @@
 # TCMBench: A Comprehensive Benchmark for Evaluating Large Language Models in Traditional Chinese Medicine
 Repo for TCMBench (“ShuzhiQihuang” LLMs series，The first comprehensive benchmark for evaluating LLMs in TCM)
 
-论文初始版本已经公开，欢迎引用，拒绝一切抄袭行为（微笑.jpg）.
+论文初始版本已经公开，欢迎引用，❗ 拒绝一切抄袭行为（微笑.jpg）.
 
 [**English**](./README.md) | [**中文**](./README_Chinese.md)
 
