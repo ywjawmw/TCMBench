@@ -1,11 +1,11 @@
-# TCMBench: Benchmarking Large Language Models in Traditional Chinese Medicine from Knowledge to Clinical Reasoning
-Repo for TCMBench (“ShuzhiQihuang” LLMs series，The first comprehensive benchmark for evaluating LLMs in TCM)
-
-<p align="center">
+<p align="left">
     <br>
     <img src="./image/TCMBench_logo.png" width="355"/>
     <br>
 </p>
+# Benchmarking Large Language Models in Traditional Chinese Medicine from Knowledge to Clinical Reasoning
+Repo for TCMBench (“ShuzhiQihuang” LLMs series，The first comprehensive benchmark for evaluating LLMs in TCM)
+
 
 ## 更新
 
