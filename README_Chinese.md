@@ -170,7 +170,7 @@ python explain_evaluation.py --model_name gpt-4-0613
 ```bash
 @misc{yue2023 TCMBench,
       title={TCMBench: Benchmarking Large Language Models in Traditional Chinese Medicine from Knowledge to Clinical Reasoning}, 
-      author={Wenjing Yue, Ming guan, Wei Zhu, Xiaoling Wang, Saisai Tian, and Weidong Zhang},
+      author={Wenjing Yue, Ming guan, Wei Zhu, Xiaoling Wang, Saisai Tian and Weidong Zhang},
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
