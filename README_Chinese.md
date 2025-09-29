@@ -116,7 +116,7 @@ Repo for TCMBench (“ShuzhiQihuang” LLMs series，The first comprehensive ben
 | -------------------------- | -------------- |
 | [./pipline/choice_bench.py](./pipline/choice_bench.py)     | 设置不同的任务，引导LLMs生成答案与解析 |
 | [./pipline/bench_function.py](./pipline/bench_function.py)   | 测试相关函数   |
-| [./pipline/ACC.py](./pipline/ACC.py) | 计算准确率   |
+| [./pipline/Acc.py](./pipline/ACC.py) | 计算准确率   |
 | [./pipline/Model_API.py](./pipline/Model_API.py)| 调用模型接口，以openai为例，可根据测评模型进行调整 |
 | [./TCMBench_code/explain_evaluation.py](./TCMBench_code/explain_evaluation.py)| 采用ROUGE-1，ROUGE-L, SARI，BerScore, BartScore, 以及我们提出的SKScore评估模型解析质量 |
 |[./HumanTrue.json](./HumanTrue.json)| HumanTrue数据集|
