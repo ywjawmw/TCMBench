@@ -108,7 +108,7 @@ Repo for TCMBench (“ShuzhiQihuang” LLMs series，The first comprehensive ben
     }
 ```
 
-## 🧐 ShenNong-TCM-Evaluation
+## 🧐 测评细节
 
 我们设计了任务自适应的prompt，要求LLM回答题目，并给出答案和分析，评测框架由如下部分组成：
 
@@ -159,11 +159,11 @@ python explain_evaluation.py --model_name gpt-4-0613
 本项目基于大模型给出的API进行开发，同时参考了大语言模型在高考试题上的测评任务，在此对相关项目和研究开发人员表示感谢。
 
 - [ChatGPT](https://openai.com/blog/chatgpt)
-- [ChatGLM](https://github.com/THUDM/ChatGLM-6B)
+- [ChatGLM](https://github.com/THUDM/ChatGLM-6B](https://github.com/THUDM/GLM)
 - [GaoKao-Bench](https://github.com/OpenLMLab/GAOKAO-Bench)
 
 
-## Citation
+## 引用
 
 如果你使用了本项目的数据或者代码，请声明引用：
 
@@ -181,8 +181,7 @@ python explain_evaluation.py --model_name gpt-4-0613
 
 ## 团队介绍
 
-本项目由华东师范大学计算机科学与技术学院智能知识管理与服务团队完成，团队指导老师为王晓玲教授。
+本项目在华东师范大学计算机科学与技术学院智能知识管理与服务团队王晓玲教授、海军军医大学天然药物化学教研室张卫东教授、田赛赛老师指导下完成。
 
-团队成员：
-- [ywjawmw](https://github.com/ywjawmw)
-- [michael-wzhu](https://github.com/michael-wzhu)
+
+
