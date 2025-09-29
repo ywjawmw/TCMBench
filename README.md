@@ -196,7 +196,7 @@ If you use the data or code from this project, please cite:
 
 ## Team
 
-This project was completed under the guidance of **Prof. Xiaoling Wan**g from the School of Computer Science and Technology, East China Normal University, **Prof. Weidong Zhang** from the Department of Phytochemistry, School of Pharmacy, School of Pharmacy, and **Lecturer Saisai Tian**.
+This project was completed under the guidance of **Prof. Xiaoling Wan**g from the School of Computer Science and Technology, East China Normal University, **Prof. Weidong Zhang** from the Department of Phytochemistry, School of Pharmacy, School of Pharmacy, and **Prof. Saisai Tian**.
 
 
 
