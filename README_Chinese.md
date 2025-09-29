@@ -1,6 +1,12 @@
 # TCMBench: Benchmarking Large Language Models in Traditional Chinese Medicine from Knowledge to Clinical Reasoning
 Repo for TCMBench (“ShuzhiQihuang” LLMs series，The first comprehensive benchmark for evaluating LLMs in TCM)
 
+<p align="center">
+    <br>
+    <img src="./image/TCMBench_logo.png" width="355"/>
+    <br>
+</p>
+
 ## 更新
 
 💥 **TCMBench V2.0**来啦，这次加入了能体现中医多标准多因素的动态临床推理过程的测试题目外，还新生成了加入推理扰动的新问题，构成了三层不同难度的测评任务，13个子任务！
@@ -154,8 +160,6 @@ python explain_evaluation.py --model_name gpt-4-0613
 - [ChatGPT](https://openai.com/blog/chatgpt)
 - [ChatGLM](https://github.com/THUDM/ChatGLM-6B)
 - [GaoKao-Bench](https://github.com/OpenLMLab/GAOKAO-Bench)
-
-Logo中的"神农"形象是由[midjourney](http://midjourney.com)自动生成。
 
 
 ## Citation
