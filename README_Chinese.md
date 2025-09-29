@@ -1,25 +1,24 @@
-<p align="left">
-    <br>
-    <img src="./image/TCMBench_logo.png" width="355"/>
-    <br>
-</p>
 
 ## TCMBench: Benchmarking Large Language Models in Traditional Chinese Medicine from Knowledge to Clinical Reasoning
 Repo for TCMBench (“ShuzhiQihuang” LLMs series，The first comprehensive benchmark for evaluating LLMs in TCM)
 
+[**English**](./README.md) | [**中文**](./README_Chinese.md)
+
+<p align="center">
+    <br>
+    <img src="./image/TCMBench_logo.png" width="355"/>
+    <br>
+</p>
+<p align="center">
+    <img alt="GitHub" src="https://img.shields.io/github/license/ymcui/Chinese-LLaMA-Alpaca.svg?color=blue&style=flat-square">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ymcui/Chinese-LLaMA-Alpaca">
+</p>
 
 ## 更新
 
 💥 **TCMBench V2.0**来啦，这次加入了能体现中医多标准多因素的动态临床推理过程的测试题目外，还新生成了加入推理扰动的新问题，构成了三层不同难度的测评任务，13个子任务！
 
 🚀 论文初始版本已经公开，欢迎引用，❗ 拒绝一切抄袭行为（微笑.jpg）.
-
-[**English**](./README.md) | [**中文**](./README_Chinese.md)
-
-<p align="center">
-    <img alt="GitHub" src="https://img.shields.io/github/license/ymcui/Chinese-LLaMA-Alpaca.svg?color=blue&style=flat-square">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ymcui/Chinese-LLaMA-Alpaca">
-</p>
 
 ## ⚡ 简介
 为了进一步有效、准确的评估大模型在中医药领域的表现，我们现建立了一个标准化、综合性的中医评测框架**TCMBench**，该评测框架将充分考虑中医药领域的复杂性和专业性，涵盖多个方面，以确保大语言模型在真实场景下的实用性和适用性。
