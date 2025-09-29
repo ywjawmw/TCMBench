@@ -144,7 +144,7 @@ python explain_evaluation.py --model_name gpt-4-0613
  ```
 
 
-👨‍⚕️ 此外，该工作中也介绍了我们之前构建中医LLMs，ShenNong的介绍，欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM-LLM**：
+👨‍⚕️ 此外，该工作中也介绍了我们之前构建中医LLMs，ShenNong，欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM-LLM**：
 
 - 🚀 [ShenNong-TCM](https://github.com/ywjawmw/ShenNong-TCM-LLM) : 为推动LLM在中医药领域的发展和落地，提升LLM的在中医药方面的知识与回答医学咨询的能力，我们推出了**ShenNong**中医药大规模语言模型。基于[中医药指令数据集SN-QA](https://huggingface.co/datasets/michaelwzhu/ShenNong_TCM_Dataset)。
 
