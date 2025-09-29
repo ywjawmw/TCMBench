@@ -142,6 +142,7 @@ python Acc.py --data_path ../data/first_level --queation_type FKU --model_name g
  ```
 python explain_evaluation.py --model_name gpt-4-0613
  ```
+其中指标加载的模型见[code](https://huggingface.co/WJing123/TCMBench_code)
 
 
 👨‍⚕️ 此外，该工作中也介绍了我们之前构建中医LLMs，ShenNong，欢迎大家关注我们的中医大模型开源项目**ShenNong-TCM-LLM**：
