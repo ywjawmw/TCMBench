@@ -185,7 +185,7 @@ If you use the data or code from this project, please cite:
 ```bash
 @misc{yue2023 TCMBench,
       title={TCMBench: Benchmarking Large Language Models in Traditional Chinese Medicine from Knowledge to Clinical Reasoning}, 
-      author={Wenjing Yue, Ming guan, Wei Zhu, Xiaoling Wang , Saisai Tian and Weidong Zhang},
+      author={Wenjing Yue, Xiaoling Wang, Ming guan, Wei Zhu, Honglin li},
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
