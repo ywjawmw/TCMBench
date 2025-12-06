@@ -185,7 +185,7 @@ If you use the data or code from this project, please cite:
 ```bash
 @misc{yue2023 TCMBench,
       title={TCMBench: Benchmarking Large Language Models in Traditional Chinese Medicine from Knowledge to Clinical Reasoning}, 
-      author={Wenjing Yue, Xiaoling Wang, Ming guan, Wei Zhu, Honglin li},
+      author={Wenjing Yue, Ming guan, Wei Zhu, Xiaoling Wang, Honglin li},
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
@@ -196,7 +196,7 @@ If you use the data or code from this project, please cite:
 
 ## Team
 
-This project was completed under the guidance of **Prof. Xiaoling Wang** from the School of Computer Science and Technology, East China Normal University.
+This project was completed under the guidance of **Prof. Xiaoling Wang** from the School of Computer Science and Technology, **Prof. Honglin Li** from Innovation Center for AI and Drug Discovery, East China Normal University.
 
 
 
