@@ -170,7 +170,7 @@ python explain_evaluation.py --model_name gpt-4-0613
 ```bash
 @misc{yue2023 TCMBench,
       title={TCMBench: Benchmarking Large Language Models in Traditional Chinese Medicine from Knowledge to Clinical Reasoning}, 
-      author={Wenjing Yue, Ming guan, Wei Zhu, Xiaoling Wang, Saisai Tian and Weidong Zhang},
+      author={Wenjing Yue, Xiaoling Wang, Ming guan, Wei Zhu, Xiaoling Wang, Honglin Li},
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
@@ -181,7 +181,7 @@ python explain_evaluation.py --model_name gpt-4-0613
 
 ## 团队介绍
 
-本项目在华东师范大学计算机科学与技术学院智能知识管理与服务团队王晓玲教授、海军军医大学天然药物化学教研室张卫东教授、田赛赛研究员指导下完成。
+本项目在华东师范大学计算机科学与技术学院智能知识管理与服务团队王晓玲教授，华东师范大学药学院院长、人工智能新药创智中心主任李洪林教授的指导下完成。
 
 
 
